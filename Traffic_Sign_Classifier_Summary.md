@@ -54,11 +54,11 @@ The code for this step is contained in the third to sixth code cells of the IPyt
 
 #### Exploratory visualizations:
 
-![alt text] [image1]
+![alt text][image1]
 
    ###### * Bar chart with frequency counts of each label at the training data set
 
-![alt text] [image2]   
+![alt text][image2]   
 
    ###### * Random plot of signs and their labels
 
@@ -71,7 +71,7 @@ The code for this step is contained in the seventh to thirteen code cells of the
 
 1. The number of images from the training set was augmented by applying transformations techniques such as random rotation, translation and brightness. Each image from the original training set was augmented by a factor of 3.
 
-![alt text] [image3]
+![alt text][image3]
 
    ##### Random plot of augmented images
 
@@ -82,7 +82,7 @@ The code for this step is contained in the seventh to thirteen code cells of the
     * Image data shape = (32, 32, 1)
     * Number of classes = 43
 
-![alt text] [image4]
+![alt text][image4]
 
    ##### * Random plot of images before and after processing
 
