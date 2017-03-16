@@ -159,7 +159,7 @@ The code for making predictions is located in the 25th and 26th cells of the Ipy
 |:---------------------:|:---------------------------------------------:| :------------:|
 | Pedestrian  	        | Pedestrian  									| OK            |
 | No Passing    		| No Passing 								    | OK            |
-| Children Crossing		| Roads Narrows on the Right					| OK            |
+| Children Crossing		| Children Crossing						| OK            |
 | No Entry      		| No Entry					 				    | OK            |
 | 30 km/h		        | 30 km/h    							        | OK            |
 
