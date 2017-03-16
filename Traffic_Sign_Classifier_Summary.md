@@ -54,11 +54,11 @@ The code for this step is contained in the third to sixth code cells of the IPyt
 
 #### Exploratory visualizations:
 
-![alt text] [image1]
+![alt text][image1]
 
    ###### * Bar chart with frequency counts of each label at the training data set
 
-![alt text] [image2]   
+![alt text][image2]   
 
    ###### * Random plot of signs and their labels
 
@@ -71,7 +71,7 @@ The code for this step is contained in the seventh to thirteen code cells of the
 
 1. The number of images from the training set was augmented by applying transformations techniques such as random rotation, translation and brightness. Each image from the original training set was augmented by a factor of 3.
 
-![alt text] [image3]
+![alt text][image3]
 
    ##### Random plot of augmented images
 
@@ -82,7 +82,7 @@ The code for this step is contained in the seventh to thirteen code cells of the
     * Image data shape = (32, 32, 1)
     * Number of classes = 43
 
-![alt text] [image4]
+![alt text][image4]
 
    ##### * Random plot of images before and after processing
 
@@ -143,7 +143,9 @@ The following indicates the steps taken during the development of the Model:
 
 ### 1. Select random images found on the web
 
-Below are five German traffic signs found on the web and used for testing
+Below are five German traffic signs found on the web and used for testing. On previous testting using different model architectures and hyperparameters, the following image misclassifications were observed:
+1) Speed limits - speed limit signs were commony misclassified.  The 30 km/h image was misclassified with 50 km/h or 80 km/h.
+2) Children crossing & pedestrians - previous architectures failed to generalized the traffic shape and the content of these 2 signs, and misclassified them with similar signs. 
 
 ![alt text][image5]
 
@@ -162,13 +164,13 @@ The code for making predictions is located in the 25th and 26th cells of the Ipy
 | 30 km/h		        | 30 km/h    							        | OK            |
 
 
-The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 100%. 
+The model was able to correctly predict 5 of the 5 traffic signs, which gives an accuracy of 100%, compared to the test set accuracy of 96.8%. As seen below on the Top Softmax probabilities, the model assign a near 100% probability to each image.  *Note that since only 5 images were used for the test, this cannot be a generalized statement, misclassifying only one image would have taken the accuracy to 80%. 
 
 ### 3. Top softmax probabilities for each text images
 
 The code for making predictions on the final model is located in the 27th and 28th cells of the Ipython notebook.
 
-Below are top 5 softmax probabilities for the testing signs.  
+Below are top 5 softmax probabilities for the testing signs.  From the plots below, it can be seen that the model is very confident (close to 100%) about its prediction for the 5 images.  
 
 ![alt text][image6]
 ![alt text][image7]
