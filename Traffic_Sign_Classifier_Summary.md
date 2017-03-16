@@ -164,7 +164,7 @@ The code for making predictions is located in the 25th and 26th cells of the Ipy
 | 30 km/h		        | 30 km/h    							        | OK            |
 
 
-The model was able to correctly predict 5 of the 5 traffic signs, which gives an accuracy of 100%, compared to the test set accuracy of 96.8%. As seen below on the Top Softmax probabilities, the model assign a near 100% probability to each image.  *Note that since only 5 images were used for the test, this cannot be a generalized statement, misclassifying only one image would have taken the accuracy to 80%. 
+The model was able to correctly predict 5 of the 5 traffic signs, which gives an accuracy of 100%, compared to the test set accuracy of 96.8%. As seen below on the Top Softmax probabilities, the model assign a near 100% probability to each image.  *Note that since only 5 images were used for the test, this cannot be a generalized statement, misclassifying only one image would have taken the accuracy to 80%*. 
 
 ### 3. Top softmax probabilities for each text images
 
