@@ -143,8 +143,8 @@ The following indicates the steps taken during the development of the Model:
 
 ### 1. Select random images found on the web
 
-Below are five German traffic signs found on the web and used for testing. On previous testting using different model architectures and hyperparameters, the following image misclassifications were observed:
-1) Speed limits - speed limit signs were commony misclassified.  The 30 km/h image was misclassified with 50 km/h or 80 km/h.
+Below are five German traffic signs found on the web and used for testing. On previous tests using different model architectures and hyperparameters, the following image misclassifications were observed:
+1) Speed limits - speed limit signs were commonly misclassified.  The 30 km/h image was misclassified with 50 km/h or 80 km/h.
 2) Children crossing & pedestrians - previous architectures failed to generalized the traffic shape and the content of these 2 signs, and misclassified them with similar signs. 
 
 ![alt text][image5]
